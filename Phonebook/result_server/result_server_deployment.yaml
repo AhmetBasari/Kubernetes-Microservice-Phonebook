@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: result-app
-          image: ?
+          image: ?  
           imagePullPolicy: Always
           ports:
           - containerPort: 80

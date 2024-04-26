@@ -7,7 +7,6 @@ metadata:
 spec:
   selector:
     name: phonebook-app-pod
-  #type: LoadBalancer # --> not working for now...
   type: NodePort
   ports:
     - port: 80
