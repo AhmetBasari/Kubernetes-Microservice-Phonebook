@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: phonebook-app
-          image: ?
+          image: ahmetbasari/webserver:1.0
           ports:
           - containerPort: 80
           env:
